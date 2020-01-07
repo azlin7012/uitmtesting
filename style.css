@@ -1,0 +1,87 @@
+.footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: #4F154C;
+         color: white;
+         text-align: center;
+         }
+
+.header {
+  padding: 10px;
+  text-align: left;
+  background: #721E6E;
+  color: white;
+  font-size: 15px;
+}
+.button {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 8px 18px;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  padding: 3px;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 50%;
+  bottom: 50%;
+}
+
+.logo {
+  position: relative;
+  padding: 2px;
+  margin: auto;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+.info {
+  background-color: #F5F5F5;
+  width: 8%;
+  border: 5px solid black;
+  padding-left: 0;
+  margin: 5%;
+}
+.info p{
+  padding:15px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.form{
+  left: 80%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+}
+
